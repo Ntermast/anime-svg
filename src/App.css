@@ -1,0 +1,116 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo {
+  height: 20em;
+  padding: 1.5em;
+}
+
+.logo .external_path {
+  /* animation: external-loading-spinner 2s linear infinite; */
+  
+}
+
+.logo .internal_path {
+  position: absolute;
+  animation: internal-anime 2s linear infinite;
+  /* transform: matrix(1.00,0.00,0.00,1.00,710,160); */
+}
+
+@keyframes internal-anime {
+  0%   {transform: matrix(1.00,0.00,0.00,1.00,710,160);}
+  2.7%  {transform: matrix(0.98,0.17,-0.17,0.98,765,115);}
+  5.4%  {transform: matrix(0.94,0.34,-0.34,0.94,825,90);}
+  8.1%  {transform: matrix(0.87,0.50,-0.50,0.87,890,70);}
+  10.8% {transform: matrix(0.77,0.64,-0.64,0.77,955,60);}
+  13.5%  {transform: matrix(0.64,0.77,-0.77,0.64,1025,65);}
+  16.2%  {transform: matrix(0.50,0.87,-0.87,0.50,1085,80);}
+  18.91%  {transform: matrix(0.34,0.94,-0.94,0.34,1150,110);}
+  21.62%  {transform: matrix(0.17,0.98,-0.98,0.17,1205,145);}
+  24.32% {transform: matrix(0.00,1.00,-1.00,0.00,1255,190);}
+  27.02% {transform: matrix(-0.17,0.98,-0.98,-0.17,1290,250);}
+  29.72%  {transform: matrix(-0.34,0.94,-0.94,-0.34,1320,310);}
+  32.43%  {transform: matrix(-0.50,0.87,-0.87,-0.50,1350,370);}
+  35.13%  {transform: matrix(-0.64,0.77,-0.77,-0.64,1350,435);}
+  37.83% {transform: matrix(-0.77,0.64,-0.64,-0.77,1350,505);}
+  40.54%   {transform: matrix(-0.87,0.50,-0.50,-0.87,1335,575);}
+  43.24%  {transform: matrix(-0.94,0.34,-0.34,-0.94,1305,630);}
+  45.94%  {transform: matrix(-0.98,0.17,-0.17,-0.98,1265,685);}
+  48.64%  {transform: matrix(-1.00,0.00,-0.00,-1.00,1220,730);}
+  51.35% {transform: matrix(-0.98,-0.17,0.17,-0.98,1170,775);}
+  54.05%   {transform: matrix(-0.94,-0.34,0.34,-0.94,1105,805);}
+  56.75%  {transform: matrix(-0.87,-0.50,0.50,-0.87,1045,825);}
+  59.45%  {transform: matrix(-0.77,-0.64,0.64,-0.77,975,835);}
+  62.16%  {transform: matrix(-0.64,-0.77,0.77,-0.64,910,830);}
+  64.86% {transform: matrix(-0.50,-0.87,0.87,-0.50,845,815);}
+  67.56%   {transform: matrix(-0.34,-0.94,0.94,-0.34,780,785);}
+  70.27%  {transform: matrix(-0.17,-0.98,0.98,-0.17,725,750);}
+  72.97%  {transform: matrix(-0.00,-1.00,1.00,-0.00,675,700);}
+  75.67%  {transform: matrix(0.17,-0.98,0.98,0.17,640,650);}
+  78.37% {transform: matrix(0.34,-0.94,0.94,0.34,605,590);}
+  81.08%   {transform: matrix(0.50,-0.87,0.87,0.50,590,525);}
+  83.78%  {transform: matrix(0.64,-0.77,0.77,0.64,580,470);}
+  86.48%  {transform: matrix(0.77,-0.64,0.64,0.77,585,390);}
+  89.18%  {transform: matrix(0.87,-0.50,0.50,0.87,600,325);}
+  91.89% {transform: matrix(0.94,-0.34,0.34,0.94,630,265);}
+  94.59% {transform: matrix(0.98,-0.17,0.17,0.98,665,205);}
+  97.29% {transform: matrix(1.00,-0.00,0.00,1.00,710,160)}
+  100% {transform: matrix(1.00,0.00,0.00,1.00,710,160);}
+}
+
+
+
+/* transform: matrix(0.966, 0.259, -0.259, 0.966, 793.488, 103.943) */
+
+/* transform: matrix(1.00,0.00,0.00,1.00,710,160) */
+/* transform: matrix(0.98,0.17,-0.17,0.98,765,115) */
+/* transform: matrix(0.94,0.34,-0.34,0.94,825,90) */
+/* transform: matrix(0.87,0.50,-0.50,0.87,890,70) */
+/* transform: matrix(0.77,0.64,-0.64,0.77,955,60) */
+/* transform: matrix(0.64,0.77,-0.77,0.64,1025,65) */
+/* transform: matrix(0.50,0.87,-0.87,0.50,1085,80) */
+/* transform: matrix(0.34,0.94,-0.94,0.34,1150,110) */
+/* transform: matrix(0.17,0.98,-0.98,0.17,1205,145) */
+/* transform: matrix(0.00,1.00,-1.00,0.00,1255,190) */
+
+/* transform: matrix(-0.17,0.98,-0.98,-0.17,1290,250) */
+/* transform: matrix(-0.34,0.94,-0.94,-0.34,1320,310) */
+/* transform: matrix(-0.50,0.87,-0.87,-0.50,1350,370) */
+/* transform: matrix(-0.64,0.77,-0.77,-0.64,1350,435) */
+/* transform: matrix(-0.77,0.64,-0.64,-0.77,1350,505) */
+/* transform: matrix(-0.87,0.50,-0.50,-0.87,1335,575) */
+/* transform: matrix(-0.94,0.34,-0.34,-0.94,1305,630) */
+/* transform: matrix(-0.98,0.17,-0.17,-0.98,1265,685) */
+/* transform: matrix(-1.00,0.00,-0.00,-1.00,1220,730) */
+
+/* transform: matrix(-0.98,-0.17,0.17,-0.98,1170,775) */
+/* transform: matrix(-0.94,-0.34,0.34,-0.94,1105,805) */
+/* transform: matrix(-0.87,-0.50,0.50,-0.87,1045,825) */
+/* transform: matrix(-0.77,-0.64,0.64,-0.77,975,835) */
+/* transform: matrix(-0.64,-0.77,0.77,-0.64,910,830) */
+/* transform: matrix(-0.50,-0.87,0.87,-0.50,845,815) */
+/* transform: matrix(-0.34,-0.94,0.94,-0.34,780,785) */
+/* transform: matrix(-0.17,-0.98,0.98,-0.17,725,750) */
+/* transform: matrix(-0.00,-1.00,1.00,-0.00,675,700) */
+
+/* transform: matrix(0.17,-0.98,0.98,0.17,640,650) */
+/* transform: matrix(0.34,-0.94,0.94,0.34,605,590) */
+/* transform: matrix(0.50,-0.87,0.87,0.50,590,525) */
+/* transform: matrix(0.64,-0.77,0.77,0.64,580,470) */
+/* transform: matrix(0.77,-0.64,0.64,0.77,585,390) */
+/* transform: matrix(0.87,-0.50,0.50,0.87,600,325) */
+/* transform: matrix(0.94,-0.34,0.34,0.94,630,265) */
+/* transform: matrix(0.98,-0.17,0.17,0.98,665,205) */
+/* transform: matrix(1.00,-0.00,0.00,1.00,710,160) */
+
+
